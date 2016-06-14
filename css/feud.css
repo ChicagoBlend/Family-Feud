@@ -1,0 +1,107 @@
+@font-face {
+    font-family: stratum;
+    src: url('../assets/Stratum2-Regular.otf');
+}
+
+body {
+	overflow: hidden;
+	padding: 0px;
+	margin: 0 auto;
+	background-image: url('../assets/bg_wide.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.xContainer {
+	position: absolute;
+	width: 1200px;
+	float: center;
+	margin-top: 300px;
+}
+
+.xContainer img {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bodyContainer {
+	width: 1200px;
+	height: 798px;
+	margin: 0px auto;
+	border: 1px solid transparent;
+}
+
+.answerContainer {
+	width: 950px;
+	height: 520px;
+	margin: 250px auto;
+
+}
+
+.question {
+	width: 940px;
+	height: 70px;
+	border: 5px solid #f2c317;
+	background-color: #df6851;
+	display: block;
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+.answer {
+	width: 380px;
+	height: 75px;
+	border: 4px solid #f2c317;
+	border-right: 0px;
+	background-color: #df6851;
+	float: left;
+	margin: 5px 0px 0px 0px;
+}
+
+.answerNum {
+	margin: 0px;
+	width: 65px;
+	height: 40px;
+	background-color: #f2c317; 
+	margin: 12px 175px;
+	border-radius: 50%;
+	padding: 0px;
+	color: #fff;
+	font-size: 2em;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.points {
+	width: 75px;
+	height: 75px;
+	border: 4px solid #f2c317;
+	border-left: 2px solid #f2c317;
+	background-color: #df6851;
+	float: left;
+	margin-top: 5px;
+
+}
+
+.revealText {
+	display: none;
+	font-size: 1.4em;
+	letter-spacing: 0.7px;
+	font-weight: bold;
+	font-family: stratum;
+	margin: 25px;
+	text-align: center;
+	color: #fff;
+}
+
+.questionText {
+	font-size: 1.5em;
+	letter-spacing: 0.7px;
+	font-weight: bold;
+	font-family: stratum;
+	margin: 20px;
+	text-align: center;
+}
