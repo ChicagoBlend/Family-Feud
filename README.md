@@ -85,6 +85,8 @@ function open_websocket() {
 
 You can use your own internal websocket or an open source option such as [socket.io](http://socket.io/ "Websocket"). At Sapient, we used Channels, an IoT platform developed by Sapient's IoT Lab. If you are interested in using Channels, feel free to contact us. 
 
-This structure allows you to be creative and construct "hardware" for truly interactive gameplay. For our purposes, we soldered the chips from a basic mouse onto a red button we purchased from [Sparkfun](https://www.sparkfun.com/ "Sparkfun"). We then put this button into a container and labeled them. Every time the red button was pressed it triggered a mouse click event that sent data to the websocket. Feel free to get creative and do this whatever way you want. 
+This structure allows you to be creative and construct "hardware" for truly interactive gameplay. For our purposes, we soldered the chips from a basic mouse onto a red button we purchased from [Sparkfun](https://www.sparkfun.com/ "Sparkfun"). We then put this button into a container and labeled them. Every time the red button was pressed it triggered a mouse click event that sent data to the websocket. Feel free to get creative and do this whatever way you want. Here is an example of ours
+
+![Buzzers for Family Feud](https://s31.postimg.org/xx8fetn8r/IMG_9577_1.jpg "Buzzers")
 
 
